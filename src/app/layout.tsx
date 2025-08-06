@@ -8,8 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "School web",
+  title: "PKBM JAMIATUL BAROKAH",
   description: "",
+  icons: "/img/favicon.png",
 };
 
 export default function RootLayout({
