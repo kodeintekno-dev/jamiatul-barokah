@@ -93,7 +93,7 @@ export default function Navbar() {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-          <Button className="hidden lg:inline-flex bg-brand">
+          <Button className="hidden lg:inline-flex transition-colors duration-300 bg-brand hover:bg-brand-hover cursor-pointer">
             <Link href={button.href || "#"}>{button.label}</Link>
           </Button>
           <button
