@@ -5,17 +5,17 @@ export default function Hero() {
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/bg1.png')",
       }}
-      className="w-screen h-screen bg-cover font-[inter] flex items-center"
+      className="w-screen h-screen bg-cover font-[inter] flex items-center mt-18"
     >
-      <section className="text-white p-10 font-bold flex flex-col gap-5">
+      <section className="text-white p-10 font-bold flex flex-col gap-3 md:gap-5">
         <h2 className="text-xl md:text-[2em]">
           YAYASAN PENDIDIKAN NURUL QOLBU
         </h2>
-        <h1 className="text-5xl md:text-[6.7em] md:leading-[90px]">
+        <h1 className="text-3xl md:text-[6.7em] md:leading-[90px]">
           PKBM JAMIATUL <br /> BAROKAH
         </h1>
-        <div className="text-[2em]">
-          <h3>Nomor Ijin Oprasional : 420.0005 –</h3>
+        <div className="text-[1.1em] md:text-[2em]">
+          <h3>Nomor Ijin Oprasional : 420.0005</h3>
           <h3>IPSPN Tahun 2022</h3>
         </div>
         <h4 className="text-xl md:text-[1.6em] max-w-[800px]">
