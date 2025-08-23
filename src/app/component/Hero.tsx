@@ -5,9 +5,9 @@ export default function Hero() {
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/bg1.png')",
       }}
-      className="w-screen h-screen bg-cover font-[inter] flex items-center mt-18"
+      className="w-screen bg-cover font-[inter] flex items-center mt-18 relative"
     >
-      <section className="text-white p-10 font-bold flex flex-col gap-3 md:gap-5">
+      <section className="text-white py-65 md:py-48 p-10 font-bold flex flex-col gap-3 md:gap-5">
         <h2 className="text-xl md:text-[2em]">
           YAYASAN PENDIDIKAN NURUL QOLBU
         </h2>
@@ -26,6 +26,13 @@ export default function Hero() {
           Daftar Sekarang
         </button>
       </section>
+      <a href="">
+        <img
+          className="absolute bottom-10 right-10"
+          src="/img/logos_whatsapp-icon.png"
+          alt=""
+        />
+      </a>
     </div>
   );
 }
