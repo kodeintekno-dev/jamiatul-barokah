@@ -1,12 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Hero from "./component/Hero";
-import Program from "./component/Footer";
+import SambutanSection from "./component/SambutanSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <SambutanSection />
     </>
   );
 }
