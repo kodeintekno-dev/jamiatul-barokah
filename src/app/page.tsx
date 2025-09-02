@@ -4,6 +4,7 @@ import About from "./component/About";
 import Program from "./component/Program";
 import Footer from "./component/Footer";
 import News from "./component/news";
+import SambutanSection from "./component/SambutanSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <SambutanSection />
       <Program />
       <News />
       <Footer />
